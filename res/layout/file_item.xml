@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:background="#33CCFF" android:baselineAligned="false" android:orientation="vertical">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:textColor="#FFFF00" android:id="@+id/tvFID" android:width="40px" android:gravity="center_horizontal"></TextView>
+        <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:textColor="#0000FF" android:id="@+id/tvFType" android:gravity="center_horizontal" android:width="50px"></TextView>
+        <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:textColor="#0000FF" android:id="@+id/tvFName"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout2" android:orientation="horizontal" android:baselineAligned="false">
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:text="檔案位置：" android:textColor="#FF0099" android:textSize="10sp"></TextView>
+        <TextView android:textColor="#FF0099" android:textSize="10sp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvFPath" android:text="TextView"></TextView>
+    </LinearLayout>
+</LinearLayout>

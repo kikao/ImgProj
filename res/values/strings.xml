@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Images Project</string>
+    <string name="app_name">ImgProj</string>
+    <string name="imgtitle">SD卡讀取圖片清單</string>
+</resources>
